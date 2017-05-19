@@ -1,26 +1,26 @@
 {
-  "name": "modular-",
-  "version": "1.0.0",
+  "name": "modular-bus",
+  "version": "0.0.1",
   "description": "CSS and SASS modular mini framework for creating design systems",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/modular-.scss css/modular-.css",
-    "postbuild": "postcss css/modular-.css --use autoprefixer -d css/",
-    "minify": "postcss css/modular-.css --use cssnano -o css/modular-.min.css",
-    "stats": "cssstats css/modular-.css  ./css-stats.json",
+    "build": "node-sass scss/modular-bus.scss css/modular-bus.css",
+    "postbuild": "postcss css/modular-bus.css --use autoprefixer -d css/",
+    "minify": "postcss css/modular-bus.css --use cssnano -o css/modular-bus.min.css",
+    "stats": "cssstats css/modular-bus.css  ./css-stats.json",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikolaswise/modular-.git"
+    "url": "git+https://github.com/nikolaswise/modular-bus.git"
   },
   "keywords": [],
   "author": "Nikolas Wise",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikolaswise/modular-/issues"
+    "url": "https://github.com/nikolaswise/modular-bus/issues"
   },
-  "homepage": "https://github.com/nikolaswise/modular-#readme",
+  "homepage": "https://github.com/nikolaswise/modular-bus#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.0",
     "cssnano": "^3.10.0",

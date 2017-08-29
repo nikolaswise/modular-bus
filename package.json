@@ -4,10 +4,7 @@
   "description": "CSS and SASS modular mini framework for creating design systems",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/modular-bus.scss css/modular-bus.css",
-    "postbuild": "postcss css/modular-bus.css --use autoprefixer -d css/",
-    "minify": "postcss css/modular-bus.css --use cssnano -o css/modular-bus.min.css",
-    "stats": "cssstats css/modular-bus.css  ./css-stats.json",
+    "release": "gh-release",
     "test": "test"
   },
   "repository": {
@@ -22,15 +19,6 @@
   },
   "homepage": "https://github.com/nikolaswise/modular-bus#readme",
   "devDependencies": {
-    "autoprefixer": "^7.1.0",
-    "cssnano": "^3.10.0",
-    "cssstats-cli": "^1.0.0-beta.2",
-    "node-sass": "^4.5.2",
-    "postcss-cli": "^4.0.0",
-    "rollup": "^0.41.6",
-    "rollup-plugin-buble": "^0.15.0",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "sass-lint": "^1.10.2"
+    "gh-release": "^3.1.1"
   }
 }

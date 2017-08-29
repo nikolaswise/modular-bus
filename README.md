@@ -1,2 +1,2 @@
-# modular-
-Modular design system for
+# modular-bus
+Simple pub-sub bus that underpins the modular design patterns
